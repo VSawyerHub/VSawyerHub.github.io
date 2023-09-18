@@ -1,5 +1,5 @@
 <p align="center">
-You look lonely... I can fix that
+**_"You look lonely... I can fix that"_**
 </p>
 <img src="https://github.com/Vaikonic/Vaikonic/blob/main/Bocchi%20Runner%202074.gif" width="1280" height="320" />
 
