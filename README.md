@@ -8,14 +8,16 @@ I’m programming games
 Learning Web coding, Game developing and Design
 </p>
 
-<div align="center">
+
 Profile from study platforms:
+<div align="center">
 [![DIO](https://img.shields.io/badge/DIO-000?style=for-the-badge)](https://web.dio.me/users/vitosawyer)
 [![Alura](https://img.shields.io/badge/Alura-000?style=for-the-badge)](https://cursos.alura.com.br/user/vitosawyer)
 </div>
 
-<div align="center">
+
 Social Media
+<div align="center">
 [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&logo=Pinterest&logoColor=white)](https://pinterest.com/vaik0nic)
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/vaik0nic)
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/@Next_Station)
