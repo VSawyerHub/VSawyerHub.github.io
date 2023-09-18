@@ -27,9 +27,9 @@ Social Media
 
 <div  align="center">
 
-![YouTube](https://img.shields.io/youtube/channel/subscribers/UCuSAvzJQb0Z7JJxvbkY9eSw-Og?color=%09%23FF0000&logo=youtube&style=for-the-badge)
-![Twitter](https://img.shields.io/twitter/follow/vaik0nic?label=Vaikonic%20I%20Asif&logo=twitter&style=for-the-badge)
-![GitHub](https://img.shields.io/github/followers/VaikonicAsif?logo=github&style=for-the-badge)
+![YouTube](https://img.shields.io/youtube/channel/subscribers/UCuSAvzJQb0Z7JJxvbkY9eSwlogo=youtube&style=for-the-badge)
+![Twitter](https://img.shields.io/twitter/follow/vaik0nic?label=Vaikoniclogo=twitter&style=for-the-badge)
+![GitHub](https://img.shields.io/github/followers/Vaikoniclogo=github&style=for-the-badge)
 </div>
 
 
