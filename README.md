@@ -1,7 +1,7 @@
- #  Hi, My name is Vitória!
 
-- :milky_way: I’m interested in programming of games
-- 🌱 I’m currently learning Web coding, Game developing and Design
+
+## I’m programming games
+## Learning Web coding, Game developing and Design
 
 ## Profile from study platforms:
 [![DIO](https://img.shields.io/badge/DIO-000?style=for-the-badge)](https://web.dio.me/users/vitosawyer)
