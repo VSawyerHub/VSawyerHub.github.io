@@ -1,7 +1,7 @@
 <h3 align="center">
 You look lonely... I can fix that
 </h3>
-<img src="https://github.com/Vaikonic/Vaikonic/blob/main/Bocchi%20Runner%202074.gif" width="620" height="540" />
+<img src="https://github.com/Vaikonic/Vaikonic/blob/main/Bocchi%20Runner%202074.gif" width="1280" height="320" />
 
 
 ## I’m programming games
