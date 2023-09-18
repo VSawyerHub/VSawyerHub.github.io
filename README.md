@@ -1,5 +1,5 @@
 <h3 align="center">
-_"You look lonely... I can fix that"_
+"_You look lonely... I can fix that_"
 </h3>
 ![](https://github.com/Vaikonic/Vaikonic/blob/main/Bocchi%20Runner%202074.gif)
 
