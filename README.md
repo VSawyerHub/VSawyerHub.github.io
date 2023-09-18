@@ -1,3 +1,7 @@
+<h3 align="center">
+_"You look lonely... I can fix that"_
+</h3>
+![](https://github.com/Vaikonic/Vaikonic/blob/main/Bocchi%20Runner%202074.gif)
 
 
 ## I’m programming games
