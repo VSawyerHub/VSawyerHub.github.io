@@ -1,11 +1,13 @@
 <p align="center">
-You look lonely... I can fix that
+You look lonely...
 </p>
 <img src="https://github.com/Vaikonic/Vaikonic/blob/main/Bocchi%20Runner%202074.gif" width="1280" height="320" />
 
 <p align="center">
-I’m programming games
-Learning Web coding, Game developing and Design
+:godmode: I’m programming games :godmode:
+</p>
+<p align="center">
+:shipit: Learning Web coding, Game developing and Design :octocat:
 </p>
 
 <p align="center">
