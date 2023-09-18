@@ -1,7 +1,7 @@
 <h3 align="center">
-"_You look lonely... I can fix that_"
+You look lonely... I can fix that
 </h3>
-![](https://github.com/Vaikonic/Vaikonic/blob/main/Bocchi%20Runner%202074.gif)
+<img src="https://github.com/Vaikonic/Vaikonic/blob/main/Bocchi%20Runner%202074.gif" width="1280" height="720" />
 
 
 ## I’m programming games
