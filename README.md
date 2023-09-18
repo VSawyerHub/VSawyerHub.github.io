@@ -30,11 +30,17 @@ Social Media
 [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?style=for-the-badge&logo=Twitch&logoColor=white)](https://www.twitch.tv/vesawyer)
 </div>
 
-
+<p align="center">
 Languages and tools:
+</p>
 
-[![My Skills](https://skillicons.dev/icons?i=java,js,nodejs,html,css,lua,c,cs,cpp)](https://skillicons.dev)
-[![My Skills](https://skillicons.dev/icons?i=figma,ae,ps,xd,aws,visualstudio,unreal,blender,eclipse,idea,git,github&theme=dark)](https://skillicons.dev)
+<p align="center">
+  <a href="https://skillicons.dev">
+<img src="https://skillicons.dev/icons?i=java,js,nodejs,html,css,lua,c,cs,cpp" />
+<img src="https://skillicons.dev/icons?i=figma,ae,ps,xd,aws,visualstudio,unreal,blender,eclipse,idea,git,github&theme=dark" />
+  </a>
+</p>
+
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=vaikonic&theme=transparent&bg_color=000&border_color=14B2F0&show_icons=true&icon_color=30A3DC&title_color=E914F0&text_color=14B2F0)
 ![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=vaikonic&layout=compact&bg_color=000&border_color=14B2F0&title_color=E914F0&text_color=14B2F0)
