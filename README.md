@@ -8,12 +8,6 @@ I’m programming games
 Learning Web coding, Game developing and Design
 </p>
 
-<div  align="center">
-
-![YouTube](https://img.shields.io/youtube/channel/subscribers/UCvE1503oOurDjrFw2Mrt-Og?color=%09%23FF0000&logo=youtube&style=for-the-badge)
-![Twitter](https://img.shields.io/twitter/follow/iftekhariasif?label=Iftekhar%20I%20Asif&logo=twitter&style=for-the-badge)
-![GitHub](https://img.shields.io/github/followers/IftekharIAsif?logo=github&style=for-the-badge)
-</div>
 
 Profile from study platforms:
 
@@ -30,6 +24,13 @@ Social Media
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/@Next_Station)
 [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?style=for-the-badge&logo=Twitch&logoColor=white)](https://www.twitch.tv/vesawyer)
 
+
+<div  align="center">
+
+![YouTube](https://img.shields.io/youtube/channel/subscribers/@Next_Station-Og?color=%09%23FF0000&logo=youtube&style=for-the-badge)
+![Twitter](https://img.shields.io/twitter/follow/iftekhariasif?label=Iftekhar%20I%20Asif&logo=twitter&style=for-the-badge)
+![GitHub](https://img.shields.io/github/followers/IftekharIAsif?logo=github&style=for-the-badge)
+</div>
 
 
 Languages and tools:
