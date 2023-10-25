@@ -1,7 +1,7 @@
 <p align="center">
 I can fix that
 </p>
-<img src="https://github.com/Vaikonic/Vaikonic/blob/main/Bocchi%20Runner%202074.gif" width="1280" height="320" />
+<img src="https://github.com/Vaikonic/Vaikonic/blob/main/Bocchi%20Runner%202074.gif" width="720" height="320" />
 
 <p align="center">
 :godmode: I’m programming games :godmode:
