@@ -19,7 +19,7 @@ Profile from study platforms:
 <div  align="center">
 
 [![DIO](https://img.shields.io/badge/DIO-000?style=for-the-badge)](https://web.dio.me/users/vitosawyer)
-[![Alura](https://img.shields.io/badge/Alura-000?style=for-the-badge)](https://cursos.alura.com.br/user/vitosawyer)
+[![Alura](https://img.shields.io/badge/Alura-000?style=for-the-badge)](https://cursos.alura.com.br/user/vicsawyer)
 </div>
 
 <p align="center">
