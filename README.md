@@ -29,7 +29,7 @@ Social Media
 <div  align="center">
 
 [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&logo=Pinterest&logoColor=white)](https://pinterest.com/vaik0nic)
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/vaik0nic)
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/_vsawyer_)
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/@Next_Station)
 [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?style=for-the-badge&logo=Twitch&logoColor=white)](https://www.twitch.tv/tvsawyer)
 </div>
@@ -46,5 +46,5 @@ Languages and tools:
 </p>
 
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=vaikonic&theme=transparent&bg_color=000&border_color=14B2F0&show_icons=true&icon_color=30A3DC&title_color=E914F0&text_color=14B2F0)
-![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=vaikonic&layout=compact&bg_color=000&border_color=14B2F0&title_color=E914F0&text_color=14B2F0)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=VSawyerHub&theme=transparent&bg_color=000&border_color=14B2F0&show_icons=true&icon_color=30A3DC&title_color=E914F0&text_color=14B2F0)
+![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=VSawyerHub&layout=compact&bg_color=000&border_color=14B2F0&title_color=E914F0&text_color=14B2F0)
