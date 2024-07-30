@@ -41,7 +41,7 @@ Languages, tools and OS:
 <p align="center">
   <a href="https://skillicons.dev">
 <img src="https://skillicons.dev/icons?i=java,js,spring,html,css,lua,c,cs,cpp" />
-<img src="https://skillicons.dev/icons?i=figma,ps,aws,visualstudio,linux,unreal,blender,eclipse,idea,git,github&theme=dark" />
+<img src="https://skillicons.dev/icons?i=figma,ps,aws,visualstudio,unreal,blender,eclipse,idea,git,github&theme=dark" />
 <img src="https://skillicons.dev/icons?i=linux,kali" />
   </a>
 </p>
