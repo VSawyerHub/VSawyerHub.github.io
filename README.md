@@ -35,13 +35,14 @@ Social Media
 </div>
 
 <p align="center">
-Languages and tools:
+Languages, tools and OS:
 </p>
 
 <p align="center">
   <a href="https://skillicons.dev">
-<img src="https://skillicons.dev/icons?i=java,js,nodejs,html,css,lua,c,cs,cpp" />
-<img src="https://skillicons.dev/icons?i=figma,ae,ps,xd,aws,visualstudio,unreal,blender,eclipse,idea,git,github&theme=dark" />
+<img src="https://skillicons.dev/icons?i=java,js,spring,html,css,lua,c,cs,cpp" />
+<img src="https://skillicons.dev/icons?i=figma,ps,aws,visualstudio,linux,unreal,blender,eclipse,idea,git,github&theme=dark" />
+<img src="https://skillicons.dev/icons?i=linux,kali" />
   </a>
 </p>
 
