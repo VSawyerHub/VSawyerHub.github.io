@@ -1,0 +1,100 @@
+/* CRT Theme Overrides */
+
+/* New color scheme */
+html,
+html[data-theme="light"] {
+    --main-background-color: #000000;
+    --main-darken-background-color: #000000;
+    --crust-background-color: #121212;
+    --mantle-background-color: #101010;
+    --main-text-color: #00ff00;
+    --subtext0-color: #00cc00;
+    --surface0-color: #1a1a1a;
+    --overlay1-color: #00aa00;
+    --overlay0-color: #008800;
+    --accent-color: #00ff66;
+    --accent-color-background: #003311;
+    --accent-color-deep: #00ff99;
+    --accent-color-deep-background: #004422;
+    --hr-color: #006600;
+    --link-color: #00ffcc;
+    --code-color: #00ffaa;
+    --code-background-color: #002211;
+    --content-active-color: #00ff33;
+    --content-background-color: #0f1f0f;
+}
+
+/* CRT screen effect */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+/* Scanline effect */
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) 1px, transparent 1px, transparent 2px);
+    pointer-events: none;
+    z-index: 9998;
+}
+
+/* Screen flicker animation */
+@keyframes flicker {
+    0% { opacity: 0.9; }
+    5% { opacity: 0.95; }
+    10% { opacity: 0.9; }
+    15% { opacity: 0.85; }
+    20% { opacity: 0.9; }
+    25% { opacity: 0.95; }
+    30% { opacity: 0.9; }
+    35% { opacity: 0.95; }
+    40% { opacity: 0.9; }
+    45% { opacity: 0.95; }
+    50% { opacity: 1; }
+    55% { opacity: 0.95; }
+    60% { opacity: 0.9; }
+    65% { opacity: 0.95; }
+    70% { opacity: 0.9; }
+    75% { opacity: 0.95; }
+    80% { opacity: 0.9; }
+    85% { opacity: 0.95; }
+    90% { opacity: 0.9; }
+    95% { opacity: 0.95; }
+    100% { opacity: 0.9; }
+}
+
+body {
+    animation: flicker 30s infinite;
+}
+
+/* Adjust text styles for CRT theme */
+.post-container, .sidebar-container {
+    text-shadow: 0 0 2px rgba(0, 255, 0, 0.4);
+}
+
+code {
+    text-shadow: 0 0 3px rgba(0, 255, 170, 0.5);
+}
+
+/* Glow effect for links */
+a:hover {
+    text-shadow: 0 0 8px rgba(0, 255, 204, 0.8);
+}
+
+/* Override intro header for CRT effect compatibility */
+.intro-header {
+    background-color: #000000;
+}

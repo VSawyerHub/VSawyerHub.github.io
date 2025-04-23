@@ -2,78 +2,48 @@
 layout: default
 ---
 
-<div class="animated-text">
-    <img src="img/catppuccin-cat-footer.png" alt="cat-footer">
-    <div>
-        <i>"In the end, would it all be worth it?"</i> 
-        <p>~ 🌸🐳 HynDuf</p>
-        <div class='header-line'>
-            <strong> ━━━━━━  ❖  ━━━━━━ </strong>
+<aside class="left_sidebar">
+    <div class="profile_data">
+        <div class="profile_image"></div>
+        <div class="floating_text">デジタル亡霊</div>
+        <div class="glitch_text" data-text="VSAWYER">VSAWYER</div>
+    </div>
+
+    <div class="memory_fragment">
+        <div class="entry_date">sys.time: undefined</div>
+        "In the end, would it all be worth it?" ~ 🌸🐳 VSAWYER
+    </div>
+</aside>
+
+<main class="main_content">
+    <div class="thought_entry">
+        <div class="entry_date">03:27:18 AM</div>
+        <div class="entry_content">
+            debug.log(memories);<br><br>
+            another night dissolves into binary. these halls echo with
+            uncompiled emotions, each function returning void where your
+            presence once allocated space. i write poems in assembly,
+            hoping they reach your ghost in the machine.
         </div>
+    </div>
+</main>
+
+<aside class="right_sidebar">
+    <div class="memory_fragment">
+        <div class="entry_date">eternal.loop</div>
+        for(let i = 0; i < feelings.length; i++) {<br>
+        &nbsp;&nbsp;memory.push(feelings[i]);<br>
+        &nbsp;&nbsp;await sleep(forever);<br>
+        }
+    </div>
+
+    <div class="memory_fragment">
+        <div class="entry_date">neural.echo</div>
+        class Longing extends Emotion {<br>
+        &nbsp;&nbsp;constructor() {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;super(infinity);<br>
+        &nbsp;&nbsp;}<br>
+        }
+    </div>
+</aside>
 </div>
-</div>
-<!-- Main Content -->
-<div class="container">
-<div class="row">
-{% if site.sidebar == false %}
-<!-- NO SIDEBAR -->
-<!-- PostList Container -->
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1
-      postlist-container">
-      {{ content }}
-    </div>
-    <div> </div>
-    <!-- Sidebar Container -->
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1
-      sidebar-container">
-      <!-- Featured Tags -->
-      {% include featured-tags.html %}
-
-      <!-- Friends Blog -->
-      {% include friends.html %}
-    </div>
-    {% else %}
-
-    <!-- USE SIDEBAR -->
-    <!-- PostList Container -->
-    <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12
-      col-xs-12 postlist-container">
-      {{ content }}
-    </div>
-    <!-- Sidebar Container -->
-    <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-12
-      col-xs-12 sidebar-container">
-      <!-- Short About -->
-      {% include short-about.html %}
-
-      <!-- Featured Tags -->
-      {% include featured-tags.html %}
-
-      <!-- Friends Blog -->
-      {% include friends.html %}
-    </div>
-    {% endif %}
-  </div>
-</div>
-
-{% if site.page-mathjax %}
-<!-- Add support for Mathjax by Voleking-->
-<!-- If you want to see formulars well in post preview, Maybe you should add this.-->
-<!-- However, most of the time formulars may not appear in the post preview, you can delete it.-->
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    TeX: {
-      equationNumbers: {
-        autoNumber: "AMS"
-      }
-    },
-    tex2jax: {
-      inlineMath: [ ['$','$'] ],
-      displayMath: [ ['$$','$$'] ],
-      processEscapes: true,
-    }
-  });
-</script>
-<script type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-{% endif %}

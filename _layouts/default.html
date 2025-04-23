@@ -3,21 +3,35 @@
 
 {% include head.html %}
 
-<!-- hack iOS CSS :active style -->
-<body ontouchstart="">
+<body ontouchstart="" class="dungeon_container">
 
-    {% include nav.html %}
-    {% include search.html %}
+<nav class="navigation">
+    <div class="nav_links">
+        <a href="{{ site.baseurl }}/">/home</a>
+        <a href="{{ site.baseurl }}/about">/about</a>
+    </div>
+</nav>
 
-    {{ content }}
+{{ content }}
 
-    {% include footer.html %}
+{% include footer.html %}
 
+<script>
+    function glitchText() {
+        const texts = document.querySelectorAll('.glitch_text');
+        texts.forEach(text => {
+            setInterval(() => {
+                text.style.transform = `translate(${Math.random() * 2 - 1}px, ${Math.random() * 2 - 1}px)`;
+                setTimeout(() => {
+                    text.style.transform = 'translate(0, 0)';
+                }, 50);
+            }, 3000);
+        });
+    }
 
-<!-- Image to hack wechat -->
-<!-- <img src="/img/icon_wechat.png" width="0" height="0" /> -->
-<!-- Migrate from head to bottom, no longer block render and still work -->
-
+    createRain();
+    glitchText();
+</script>
 </body>
 
 </html>
