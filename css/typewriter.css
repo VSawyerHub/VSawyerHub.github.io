@@ -1,0 +1,85 @@
+.typewriter-container {
+    display: flex;
+    align-items: center;
+    height: 28px;
+    overflow: hidden;
+    color: var(--text-ghost);
+    font-family: 'MS Gothic', monospace;
+    font-size: 0.9rem;
+}
+
+.typewriter-prefix {
+    color: #00ff00;
+    margin-right: 6px;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.7);
+}
+
+.typewriter-text {
+    white-space: nowrap;
+    color: #00ff00;
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.7);
+}
+
+.typewriter-cursor {
+    margin-left: 2px;
+    animation: blink 1s step-end infinite;
+    color: #00ff00;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.7);
+}
+
+.site-header {
+    grid-column: 1 / -1;
+    background: var(--void-secondary);
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border-shade);
+    position: relative;
+    overflow: hidden;
+}
+
+.site-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(74, 74, 74, 0.05), transparent);
+    z-index: 0;
+}
+
+.site-header .typewriter-container {
+    height: auto;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.site-header .typewriter-text,
+.site-header .typewriter-prefix,
+.site-header .typewriter-cursor {
+    font-size: 1.5rem;
+    text-shadow: 0 0 8px rgba(0, 255, 0, 0.7);
+}
+
+@keyframes blink {
+    from, to { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+
+@media (max-width: 768px) {
+    .site-header .typewriter-container {
+        font-size: 1.2rem;
+    }
+
+    .site-header .typewriter-text,
+    .site-header .typewriter-prefix,
+    .site-header .typewriter-cursor {
+        font-size: 1.2rem;
+    }
+}

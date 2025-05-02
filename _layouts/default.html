@@ -12,9 +12,15 @@
     </div>
 </nav>
 
-{{ content }}
+<header class="site-header">
+    <div class="typewriter-container">
+        <span class="typewriter-prefix">></span>
+        <span class="typewriter-text" data-text="Digital Ghost in the Machine"></span>
+        <span class="typewriter-cursor">|</span>
+    </div>
+</header>
 
-{% include footer.html %}
+{{ content }}
 
 <script>
     function glitchText() {
@@ -29,6 +35,42 @@
         });
     }
     glitchText();
+
+    function typewriterEffect() {
+        const elements = document.querySelectorAll('.typewriter-text');
+        elements.forEach(element => {
+            const text = element.getAttribute('data-text');
+            let index = 0;
+            element.textContent = '';
+
+            function type() {
+                if (index < text.length) {
+                    element.textContent += text.charAt(index);
+                    index++;
+                    setTimeout(type, Math.random() * 120 + 50);
+                } else {
+                    setTimeout(reset, 5000);
+                }
+            }
+
+            function reset() {
+                let currentText = element.textContent;
+                let deleteInterval = setInterval(() => {
+                    if (currentText.length > 0) {
+                        currentText = currentText.slice(0, -1);
+                        element.textContent = currentText;
+                    } else {
+                        clearInterval(deleteInterval);
+                        index = 0;
+                        setTimeout(type, 500);
+                    }
+                }, 30);
+            }
+
+            setTimeout(type, 1000);
+        });
+    }
+    typewriterEffect();
 </script>
 </body>
 
