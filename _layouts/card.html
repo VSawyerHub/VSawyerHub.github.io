@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<link rel="stylesheet" href="{{ '/css/digital.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/css/card.css' | relative_url }}">
+<body style="background: var(--void-primary); margin: 0;">
+<nav class="navigation">
+    <div class="nav_links">
+        <a href="{{ site.baseurl }}/">/home</a>
+        <a href="{{ site.baseurl }}/card">/card</a>
+    </div>
+</nav>
+<div class="profile-card-container">
+    <div class="profile-card">
+        <div class="profile-info">
+            <h1>Victory Sawyer</h1>
+            <div class="profile-role">Developer</div>
+            <p>デジタル亡霊 - another night dissolves into binary. fullstack developer wandering through the digital void.</p>
+            <div class="profile-tags">
+                <span class="profile-tag">Coding</span>
+                <span class="profile-tag">Design</span>
+                <span class="profile-tag">Gaming</span>
+                <span class="profile-tag">Content</span>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/{{ site.github_username }}" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/{{ site.twitter_username }}" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -2,6 +2,26 @@
 layout: default
 ---
 
+<header class="site-header">
+    <div class="header-content">
+        <div class="header-left">
+            <h2 class="portfolio-title">Victory Sawyer</h2>
+            <h3 class="description">Bem vindo!</h3>
+            <div class="skills-container">
+                <span class="skills-prefix">></span>
+                <span class="typewriter-text" data-texts='["Coding", "Gaming", "Design", "Fullstack", "Content Creator", "( ͡° ͜ʖ ͡°)"]'></span>
+                <span class="typewriter-cursor">|</span>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="polaroid">
+                <div class="polaroid-image"></div>
+                <div class="polaroid-caption">˚₊‧ᓚᘏᗢ‧₊˚</div>
+            </div>
+        </div>
+    </div>
+</header>
+
 <aside class="left_sidebar">
     <div class="profile_data">
         <div class="profile_image"></div>
@@ -11,7 +31,7 @@ layout: default
 
     <div class="memory_fragment">
         <div class="entry_date">sys.time: undefined</div>
-        "In the end, would it all be worth it?" ~ 🌸🐳 VSAWYER
+        "In the end, would it all be worth it?"
     </div>
 </aside>
 
@@ -26,24 +46,49 @@ layout: default
             hoping they reach your ghost in the machine.
         </div>
     </div>
+
+    <div class="pixel_divider"></div>
 </main>
 
-<aside class="right_sidebar">
-    <div class="memory_fragment">
-        <div class="entry_date">eternal.loop</div>
-        for(let i = 0; i < feelings.length; i++) {<br>
-        &nbsp;&nbsp;memory.push(feelings[i]);<br>
-        &nbsp;&nbsp;await sleep(forever);<br>
-        }
-    </div>
 
-    <div class="memory_fragment">
-        <div class="entry_date">neural.echo</div>
-        class Longing extends Emotion {<br>
-        &nbsp;&nbsp;constructor() {<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;super(infinity);<br>
-        &nbsp;&nbsp;}<br>
-        }
-    </div>
-</aside>
-</div>
+
+<script>
+    function multiTypewriterEffect() {
+        const elements = document.querySelectorAll('.typewriter-text');
+        elements.forEach(element => {
+            const texts = JSON.parse(element.getAttribute('data-texts'));
+            let textIndex = 0;
+            let charIndex = 0;
+            element.textContent = '';
+
+            function type() {
+                const currentText = texts[textIndex];
+                if (charIndex < currentText.length) {
+                    element.textContent += currentText.charAt(charIndex);
+                    charIndex++;
+                    setTimeout(type, Math.random() * 120 + 50);
+                } else {
+                    setTimeout(reset, 2000);
+                }
+            }
+
+            function reset() {
+                let currentText = element.textContent;
+                let deleteInterval = setInterval(() => {
+                    if (currentText.length > 0) {
+                        currentText = currentText.slice(0, -1);
+                        element.textContent = currentText;
+                    } else {
+                        clearInterval(deleteInterval);
+                        textIndex = (textIndex + 1) % texts.length;
+                        charIndex = 0;
+                        setTimeout(type, 500);
+                    }
+                }, 30);
+            }
+
+            setTimeout(type, 1000);
+        });
+    }
+    multiTypewriterEffect();
+</script>

@@ -1,5 +1,5 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: card
+title: Card
+permalink: /card/
 ---

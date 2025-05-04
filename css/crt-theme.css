@@ -7,21 +7,6 @@ html[data-theme="light"] {
     --main-darken-background-color: #000000;
     --crust-background-color: #121212;
     --mantle-background-color: #101010;
-    --main-text-color: #00ff00;
-    --subtext0-color: #00cc00;
-    --surface0-color: #1a1a1a;
-    --overlay1-color: #00aa00;
-    --overlay0-color: #008800;
-    --accent-color: #00ff66;
-    --accent-color-background: #003311;
-    --accent-color-deep: #00ff99;
-    --accent-color-deep-background: #004422;
-    --hr-color: #006600;
-    --link-color: #00ffcc;
-    --code-color: #00ffaa;
-    --code-background-color: #002211;
-    --content-active-color: #00ff33;
-    --content-background-color: #0f1f0f;
 }
 
 /* CRT screen effect */

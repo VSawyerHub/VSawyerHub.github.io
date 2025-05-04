@@ -1,0 +1,131 @@
+.profile-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 60px);
+    width: 100%;
+    padding: 2rem 1rem;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.profile-card {
+    background-color: var(--void-secondary);
+    border: 1px solid var(--border-shade);
+    border-radius: 5px;
+    box-shadow: 0 8px 16px var(--shadow-deep);
+    overflow: hidden;
+    width: 90%; /* Adjust width for smaller screens */
+    max-width: 400px; /* Limit maximum width */
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.profile-info {
+    padding: 1.5rem;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-family: "Press Start 2P", monospace;
+    font-size: 1.2rem; /* Adjust font size for better readability */
+    color: var(--text-ghost);
+    margin-bottom: 0.5rem;
+}
+
+.profile-role {
+    font-family: "MS Gothic", monospace;
+    color: var(--accent-dream);
+    font-size: 0.9rem; /* Adjust font size */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.profile-info p {
+    color: var(--text-whisper);
+    margin: 1rem 0;
+    font-family: "Courier New", monospace;
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+.profile-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.profile-tag {
+    background-color: var(--void-primary);
+    color: var(--text-whisper);
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    font-family: "Courier New", monospace;
+    border: 1px solid var(--border-shade);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-link {
+    color: var(--text-ghost);
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.social-link:hover {
+    color: #fff;
+    text-shadow: 0 0 8px var(--accent-glow);
+}
+
+@media (max-width: 768px) {
+    .profile-card {
+        width: 95%; /* Increase width for smaller screens */
+        padding: 1rem;
+    }
+
+    .profile-info h1 {
+        font-size: 1rem; /* Reduce font size */
+    }
+
+    .profile-role {
+        font-size: 0.8rem;
+    }
+
+    .profile-info p {
+        font-size: 0.8rem;
+    }
+
+    .social-link {
+        font-size: 1rem; /* Adjust icon size */
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-info h1 {
+        font-size: 0.9rem; /* Further reduce font size */
+    }
+
+    .profile-role {
+        font-size: 0.7rem;
+    }
+
+    .profile-info p {
+        font-size: 0.75rem;
+    }
+
+    .profile-tag {
+        font-size: 0.6rem; /* Adjust tag size */
+    }
+}
