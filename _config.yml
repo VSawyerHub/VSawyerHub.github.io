@@ -51,6 +51,8 @@ exclude:
     "package.json",
     "README.md",
     "README.zh.md",
+    "JEKYLL_TUTORIAL.md",
+    "QUICK_START.md",
     ".sass-cache/",
     ".jekyll-cache/",
     "gemfiles/",

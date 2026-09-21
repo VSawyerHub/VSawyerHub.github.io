@@ -1,0 +1,146 @@
+/* Blog Page Layout - Sidebar + Main Content */
+
+/* Sidebar section styling for blog page */
+.sidebar_section {
+    border: 1px solid var(--border-shade);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.sidebar_section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(74, 74, 74, 0.1));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.sidebar_section:hover::before {
+    opacity: 1;
+}
+
+.sidebar_title {
+    color: var(--accent-dream);
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+    font-family: 'Courier New', monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.category_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category_list li {
+    margin: 0.5rem 0;
+    font-family: 'MS Gothic', 'Courier New', monospace;
+    font-size: 0.9rem;
+}
+
+.category_list a {
+    color: var(--text-whisper);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.category_list a:hover {
+    color: var(--text-ghost);
+}
+
+/* Post list styling - matching thought_entry from digital.css */
+.post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.post-list-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border-shade);
+    background: rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.post-list-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px var(--shadow-deep);
+}
+
+.post-list-item .post-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    font-family: 'MS Gothic', 'Courier New', monospace;
+}
+
+.post-list-item .post-title a {
+    color: var(--text-ghost);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.post-list-item .post-title a:hover {
+    color: var(--text-ghost);
+    text-shadow: 0 0 8px var(--accent-glow);
+}
+
+.post-list-item .post-meta {
+    color: var(--accent-dream);
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+    font-family: 'Courier New', monospace;
+}
+
+.post-list-item .post-excerpt {
+    color: var(--text-ghost);
+    line-height: 1.6;
+    font-family: 'MS Gothic', 'Courier New', monospace;
+    font-size: 0.95rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .dungeon_container {
+        grid-template-columns: 1fr;
+    }
+
+    .left_sidebar {
+        border-right: none;
+        border-bottom: 1px solid var(--border-shade);
+    }
+}
+
+/* Scrollbar styling */
+.left_sidebar::-webkit-scrollbar,
+.main_content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.left_sidebar::-webkit-scrollbar-track,
+.main_content::-webkit-scrollbar-track {
+    background: var(--void-primary);
+}
+
+.left_sidebar::-webkit-scrollbar-thumb,
+.main_content::-webkit-scrollbar-thumb {
+    background: var(--accent-dream);
+    border-radius: 3px;
+}
+
+.left_sidebar::-webkit-scrollbar-thumb:hover,
+.main_content::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-glow);
+}
