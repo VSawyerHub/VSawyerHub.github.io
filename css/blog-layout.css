@@ -36,28 +36,6 @@
     letter-spacing: 1px;
 }
 
-.category_list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.category_list li {
-    margin: 0.5rem 0;
-    font-family: 'MS Gothic', 'Courier New', monospace;
-    font-size: 0.9rem;
-}
-
-.category_list a {
-    color: var(--text-whisper);
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.category_list a:hover {
-    color: var(--text-ghost);
-}
-
 /* Post list styling - matching thought_entry from digital.css */
 .post-list {
     list-style: none;

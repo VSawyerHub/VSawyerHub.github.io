@@ -21,24 +21,6 @@ I've added a new **`/blog`** page to your Jekyll site with:
 - **`_layouts/default.html`** - Added `/blog` to navigation
 - **`_layouts/card.html`** - Added `/blog` to navigation
 
-## How to View Your New Blog Page
-
-### 1. Start Jekyll Server
-
-```bash
-cd /home/victory/IdeaProjects/VSawyerHub.github.io
-bundle exec jekyll serve
-```
-
-### 2. Open in Browser
-
-Navigate to: `http://localhost:4000/blog`
-
-You should see:
-- Left sidebar with your profile (same as home)
-- Main content area with blog posts listed
-- All posts from `_posts/` folder displayed
-
 ## Creating a New Blog Post
 
 1. Create a file in `_posts/` folder:
@@ -169,7 +151,3 @@ bundle exec jekyll clean
 ```
 
 ---
-
-**Happy blogging!** 🎉
-
-For detailed explanations, see **JEKYLL_TUTORIAL.md**
